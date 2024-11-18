@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regalo para Anita</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Ventana emergente inicial -->
+    <div id="ventana-emergente">
+        <div id="contenedor-festejo">
+            <h1>¡Feliz Cumpleaños Anitaa!</h1>
+            <p>Que este día esté lleno de alegrias y sorpresas especiales. 🎉</p>
+            <button id="cerrar-emergente">Entrar a la Página</button>
+        </div>
+    </div>
+
+    <header>
+        <h1>Bienvenida a tu sorpresa web Anita</h1>
+        <nav>
+            <ul>
+                <li><a href="#recuerdos" class="menu-link">Algunos recuerdos</a></li>
+                <li><a href="#agradecimientos" class="menu-link">Gracias Anita por:</a></li>
+                <li><a href="#mensajes" class="menu-link">Mensajes Especiales</a></li>
+                <li><a href="#risas" class="menu-link">chistes para amenizar el dia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección de recuerdos -->
+        <section id="recuerdos" class="contenido oculto">
+            <h2>Algunos recuerdos:</h2>
+            <ul id="lista-recuerdos">
+                <li>🌸 Cuando me ayudaste a entrar a la Upea.</li>
+                <li>🎶 Las caminatas después de clases.</li>
+                <li>✨ Las risas interminables de los chistes que hacías JAJAJJAJA.</li>
+            </ul>
+            <form id="form-recuerdo">
+                <input type="text" id="nuevo-recuerdo" placeholder="Escribe un nuevo recuerdo" required>
+                <button type="submit">Añade mas recuerdos Anita</button>
+            </form>
+        </section>
+        
+
+         <!-- Sección de agradecimientos -->
+         <section id="agradecimientos" class="contenido oculto">
+          
+            <ul>
+                <li>💖 Por siempre estar ahí cuando más te necesito.</li>
+                <li>✨ Por hacer mis días más felices.</li>
+                <li>🌟 Por ser una amiga tan maravillosa e irremplazable.</li>
+                <li>🌟 Por ser una persona empatica.</li>
+                <li>🌟 Por apoyarme y preocuparte por mi.</li>
+                <li>🌟 Por enseñarme a ser una mejor persona.</li>
+                <li>🌟 Por hacerme reir.</li>
+                <li>💖 Por invitarme y no permitir que muera de hambre JAJAJA.</li>
+                <li>💖Por estar presente en los buenos y malos momentos.</li>
+                <li>Por ser un ejemplo de esfuerzo y dedicación. Me inspiras cada día. 🌟</li>
+                <li>Por ser más que una amiga, eres como una hermana para mí. ❤️</li>
+                <li>Por escucharme sin juzgar y entenderme como nadie más lo hace. 🤗</li>
+                <li>Por demostrarme que la amistad verdadera existe. Gracias por todo. 🌸</li>
+                <li>Por nunca rendirte, incluso cuando el camino es difícil. Eso me inspira a dar lo mejor de mí. 🚀</li>
+                <li>✨ Y por gracias por existir haces mis dias mas felices anita.</li>
+                
+            </ul>
+        </section>
+
+
+
+        <!-- Sección de mensajes especiales -->
+        <section id="mensajes" class="contenido oculto">
+            <h2>Mensajes Especiales</h2>
+            <p>Elige cómo te sientes hoy Anita:</p>
+            <div class="botones-mensajes">
+                <button class="mensaje-boton" data-categoria="feliz">😊 Cuando estés feliz</button>
+                <button class="mensaje-boton" data-categoria="triste">😢 Cuando estés triste</button>
+                <button class="mensaje-boton" data-categoria="animo">💪 Cuando necesites ánimo</button>
+            </div>
+            <div id="mensajes-contenido"></div>
+        </section>
+
+        <!-- Sección de risas -->
+        <section id="risas" class="contenido oculto">
+            <h2>Risas</h2>
+            <ul>
+                <li>😂 ¿Qué hace una abeja en el gimnasio? ¡Zum-ba!</li>
+                <li>🤣 ¿Por qué el tomate no juega al escondite? Porque siempre se sienta en salsa.</li>
+                <li>😜 ¿Qué le dice una pared a otra? ¡Nos vemos en la esquina!</li>
+                <li>😜 Pensa en el Jhas haciendo algo chistoso JAJAJA</li>
+                <li>😜 no soy buena con los chistes asi que esta seccion , sera , esito nomas jajaja</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Con mucho cariño Atte: Vivi ¡Feliz cumple Anita! 🎂</p>
+    </footer>
+</body>
+</html>
+
+
